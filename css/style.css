@@ -1,0 +1,10 @@
+body{
+  background: black;
+}
+.sprite{
+  position: relative;
+  width: 858px;
+  height: 651px;
+  background: url('../img/cheval2.jpg');
+  margin:0 auto;
+}
