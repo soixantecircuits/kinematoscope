@@ -58,7 +58,7 @@ var Socket = function () {
           //console.log(data.source_slug);
           if (data.source_slug === 'twitter'){
             //$(_self).trigger('new-twitter');
-            if(data.meta.mentions.indexOf('AugusteLeBot') > 0){
+            if(data.meta.twitterMentionList.indexOf('AugusteLeBot') > 0){
               $(_self).triggerHandler('new-twitter', data);  
             }
             //handleData(data);
