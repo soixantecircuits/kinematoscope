@@ -7,6 +7,7 @@ var sprite,
   deadTime = (60 * 1000) / 4.0;
 
 realtime.init();
+hideCursor();
 
 $(realtime).on('new-twitter', function(evt, data) {
   runrun();
